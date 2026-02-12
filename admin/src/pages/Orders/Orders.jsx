@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 import axios from "axios"
 import {assets} from "../../assets/assets"
 
-const Orders = ({https://food-delivery-backend-3mcj.onrender.com/}) => {
+const Orders = ({url}) => {
 
   const [orders,setOrders] = useState([]);
   const fetchAllOrders = async () => {
